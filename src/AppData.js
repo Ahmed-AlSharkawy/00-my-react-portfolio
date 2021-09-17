@@ -358,7 +358,7 @@ const AppData = [
     img: 'https://d33wubrfki0l68.cloudfront.net/6142946ad90d663f67da0257/screenshot_2021-09-16-00-51-36-0000.png',
     github_url:
       'https://github.com/Ahmed-AlSharkawy/31-comfy-sloth-react-auth0-stripe',
-    netlify_url: 'https://comfy-sloth-react-auth0-stripe.netlify.app/',
+    netlify_url: 'https://comfy-sloth-react-auth0-stripe.netlify.app',
     teqs: [
       'react',
       'react-hooks',
