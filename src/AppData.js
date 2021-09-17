@@ -352,7 +352,7 @@ const AppData = [
   },
   {
     id: 30,
-    name: 'Comfy Sloth Storhouse',
+    name: 'Comfy Sloth Storehouse',
     info: 'This is an e-commerce application which using react framework along with react icons library, styled components, and react router dom. It is also using formspree tool for receiving emails from users, auth0 for managing authentications and login processes, stripe for payment functionality, axios for posting to the server, and netlify cli functions to communicate with stripe. The app was created within vscode environment and git and github tools, and was deployed to netlify service.',
     level: 'large',
     img: 'https://d33wubrfki0l68.cloudfront.net/6142946ad90d663f67da0257/screenshot_2021-09-16-00-51-36-0000.png',
