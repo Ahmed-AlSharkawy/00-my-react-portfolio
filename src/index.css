@@ -501,3 +501,58 @@ p {
     justify-content: space-evenly;
   }
 }
+
+.single-card-container {
+  margin: 3rem auto;
+  max-width: 90%;
+}
+
+.single-card-container .title {
+  margin-bottom: 1.5rem;
+}
+
+.single-card {
+  border: none;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.single-card img {
+  height: 20rem;
+  object-fit: fill;
+  border: var(--clr-palette-gold) 3px solid;
+}
+
+@media (min-width: 500px) {
+  .single-card-container {
+    max-width: 80%;
+  }
+}
+@media (min-width: 700px) {
+  .single-card-container {
+    max-width: 90%;
+  }
+  .single-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1170px) {
+  .single-card-container {
+    max-width: 80%;
+  }
+  .single-card {
+    gap: 2.5rem;
+  }
+}
+
+.zero-margin {
+  margin: 0;
+}
+
+.single-card-text {
+  line-height: 1.25;
+}
+
+.info-container .btn-container {
+  margin-top: 1.5rem;
+}
