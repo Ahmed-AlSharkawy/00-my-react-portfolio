@@ -32,7 +32,7 @@ const Footer = () => {
           <SiGmail className='social-icon' />
         </a>{' '}
         <a
-          href='https://wa.me/00212629276545'
+          href='https://wa.me/+212629276545'
           target='_blank'
           rel='noopener noreferrer'
         >
