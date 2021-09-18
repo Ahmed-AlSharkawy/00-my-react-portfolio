@@ -318,6 +318,10 @@ p {
   font-weight: 700;
 }
 
+.info-link {
+  color: var(--clr-palette-charcoal);
+}
+
 .card-btn {
   text-decoration: none;
   text-transform: uppercase;
