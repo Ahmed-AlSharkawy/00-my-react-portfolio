@@ -9,7 +9,7 @@ const Home = () => {
     if (filter === 'all' || filter === filterValue) {
       return (
         <>
-          <Title titel={`${titleValue} Applications`} />
+          <Title title={`${titleValue} Applications`} />
           <section className='card-container'>
             {AppData.filter((app) => app.level === filterValue)
               .reverse()
@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <>
-      <Filters setFilter={setFilter} />
+      <Filters filter={filter} setFilter={setFilter} />
       {settingAppSection('large', 'Large-Scale')}
       {settingAppSection('advanced', 'Advanced')}
       {settingAppSection('intermediate', 'Intermediate')}
@@ -35,7 +35,7 @@ const Home = () => {
     <>
       {(filter === 'all' || filter === 'large') && (
         <>
-          <Title titel='Large-Scale Applications' />
+          <Title title='Large-Scale Applications' />
           {AppData.filter((app) => app.level === 'large').map((app) => {
             return <AppCard key={app.id} {...app} />
           })}
@@ -43,7 +43,7 @@ const Home = () => {
       )}
       {(filter === 'all' || filter === 'advanced') && (
         <>
-          <Title titel='Advanced Applications' />
+          <Title title='Advanced Applications' />
           {AppData.filter((app) => app.level === 'advanced').map((app) => {
             return <AppCard key={app.id} {...app} />
           })}
@@ -51,7 +51,7 @@ const Home = () => {
       )}
       {(filter === 'all' || filter === 'intermediate') && (
         <>
-          <Title titel='Intermediate Applications' />
+          <Title title='Intermediate Applications' />
           {AppData.filter((app) => app.level === 'intermediate').map((app) => {
             return <AppCard key={app.id} {...app} />
           })}
@@ -59,7 +59,7 @@ const Home = () => {
       )}
       {(filter === 'all' || filter === 'basic') && (
         <>
-          <Title titel='Basic Applications' />
+          <Title title='Basic Applications' />
           {AppData.filter((app) => app.level === 'basic').map((app) => {
             return <AppCard key={app.id} {...app} />
           })}

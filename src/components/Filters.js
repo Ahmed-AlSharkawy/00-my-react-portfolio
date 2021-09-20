@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Filters = ({ setFilter }) => {
+const Filters = ({ filter, setFilter }) => {
   return (
     <section className='filters'>
       <div className='all'>
         <button
           type='btn'
-          className='card-btn'
+          className={filter === 'all' ? 'card-btn active' : 'card-btn'}
           onClick={() => setFilter('all')}
         >
           All
@@ -15,28 +15,28 @@ const Filters = ({ setFilter }) => {
       <div className='rest'>
         <button
           type='btn'
-          className='card-btn'
+          className={filter === 'large' ? 'card-btn active' : 'card-btn'}
           onClick={() => setFilter('large')}
         >
           Large
         </button>
         <button
           type='btn'
-          className='card-btn'
+          className={filter === 'advanced' ? 'card-btn active' : 'card-btn'}
           onClick={() => setFilter('advanced')}
         >
           Advanced
         </button>
         <button
           type='btn'
-          className='card-btn'
+          className={filter === 'intermediate' ? 'card-btn active' : 'card-btn'}
           onClick={() => setFilter('intermediate')}
         >
           Intermediate
         </button>
         <button
           type='btn'
-          className='card-btn'
+          className={filter === 'basic' ? 'card-btn active' : 'card-btn'}
           onClick={() => setFilter('basic')}
         >
           basic

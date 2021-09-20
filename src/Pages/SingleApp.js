@@ -18,7 +18,7 @@ const SingleApp = () => {
 
   return (
     <section className='single-card-container'>
-      <Title titel={name} />
+      <Title title={name} />
       <article className='card single-card'>
         <img src={img} alt={name} />
 

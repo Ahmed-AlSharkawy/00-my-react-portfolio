@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Title = ({ titel }) => {
+const Title = ({ title }) => {
   return (
     <div className='title'>
-      <h3>{titel}</h3>
+      <h3>{title}</h3>
       <div className='underline'></div>
     </div>
   )
