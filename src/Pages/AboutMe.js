@@ -52,7 +52,7 @@ const AboutMe = () => {
             </li>
             <li>
               Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate –
-              React.js – Node.js – Express.js – jQuery - Bootstrap
+              React.js - Redux – Node.js – Express.js – jQuery - Bootstrap
             </li>
             <li>My SQL – Oracle – MongoDB</li>
             <li>
