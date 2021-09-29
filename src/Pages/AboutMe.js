@@ -56,8 +56,8 @@ const AboutMe = () => {
             </li>
             <li>My SQL – Oracle – MongoDB</li>
             <li>
-              Git – Github – Netlify - Netlify-Cli - Heroku - Contentful -
-              Airtable - Strapi - Stripe - Auth0 ...etc
+              Git – Github - Serverless Functions – Netlify - Netlify-Cli -
+              Heroku - Contentful - Airtable - Strapi - Stripe - Auth0 ...etc
             </li>
           </ul>
           <h5>Education</h5>
