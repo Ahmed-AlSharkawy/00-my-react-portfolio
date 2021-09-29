@@ -376,6 +376,16 @@ const AppData = [
       'netlify-cli',
     ],
   },
+  {
+    id: 31,
+    name: 'Cart - Redux',
+    info: 'This app implements basic cart functionality using redux.',
+    level: 'advanced',
+    img: 'https://d33wubrfki0l68.cloudfront.net/614a7fcecfc27f1e6a93649a/screenshot_2021-09-22-01-00-09-0000.png',
+    github_url: 'https://github.com/Ahmed-AlSharkawy/32-cart-react-redux',
+    netlify_url: 'https://cart-react-redux-app.netlify.app',
+    teqs: ['react', 'redux'],
+  },
 ]
 
 export default AppData
