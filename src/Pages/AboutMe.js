@@ -38,6 +38,18 @@ const AboutMe = () => {
             In a breif word, I think as a programmer, learn as a programmer, act
             as a programmer, and live as a programmer.
           </p>
+
+          <h5>Current Position</h5>
+
+          <p>
+            <strong>PHP WEB DEVELOPER</strong>
+            <br />
+            At: <a href="https://boti.education/" target="_blank" rel="noopener noreferrer">Boti School Group</a>
+            <br />
+            Since: 01/11/2021
+          </p>
+
+
           <h5>Skills and Technologies</h5>
 
           <ul>
@@ -47,12 +59,12 @@ const AboutMe = () => {
             <li>Clean Code Concepts and Internal and External Code Quality</li>
             <li>Software Design, Quality and Maintenance</li>
             <li>
-              Java – Java EE - JavaScript – HTML – CSS - ASP.Net – C# - VB.Net –
+              PHP - Java – Java EE - JavaScript – HTML – CSS - ASP.Net – C# - VB.Net –
               VB6 – Clipper – Assembly – XML – JSON
             </li>
             <li>
-              Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate –
-              React.js - Redux – Node.js – Express.js – jQuery - Bootstrap
+              Laravel - Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate –
+              React.js - Redux – Node.js – Express.js – jQuery - Bootstrap - .Net framework
             </li>
             <li>My SQL – Oracle – MongoDB</li>
             <li>
@@ -60,6 +72,7 @@ const AboutMe = () => {
               Heroku - Contentful - Airtable - Strapi - Stripe - Auth0 ...etc
             </li>
           </ul>
+
           <h5>Education</h5>
 
           <ul>
@@ -74,7 +87,7 @@ const AboutMe = () => {
               <br />
               Faculty of Sharia and Law, Egypt
             </li>
-            <p>Bachelor of Sharia and Law</p>
+            <p>Licence of Sharia and Law</p>
           </ul>
           <h5>Courses and Certificates</h5>
 

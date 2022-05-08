@@ -614,7 +614,7 @@ p {
     display: block;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .small-device {
     display: block;
   }
@@ -632,7 +632,7 @@ p {
   line-height: 1.25;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .cv-container {
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-areas: 'technical-container technical-container personal-container';
