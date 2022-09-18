@@ -3,12 +3,12 @@
   "name": "All My React Applications In One App",
   "icons": [
     {
-      "src": "myimg.png",
+      "src": "cv.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "myimg.jpg",
+      "src": "cv.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
