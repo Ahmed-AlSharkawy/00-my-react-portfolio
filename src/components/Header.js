@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import myimg from '../assets/myimg.jpg'
+import myimg from '../assets/cv.jpg'
 
 const Header = () => {
   const pathname = useLocation().pathname

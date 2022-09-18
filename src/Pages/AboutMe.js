@@ -4,7 +4,7 @@ import { SiGmail } from 'react-icons/si'
 import { FaMobileAlt, FaWhatsapp } from 'react-icons/fa'
 import { MdLocationOn } from 'react-icons/md'
 import { Title } from '../components'
-import myimg from '../assets/myimg.jpg'
+import myimg from '../assets/cv.jpg'
 
 const AboutMe = () => {
   return (
