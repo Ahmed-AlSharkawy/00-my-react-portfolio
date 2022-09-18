@@ -179,7 +179,7 @@ const AboutMe = () => {
 
             <a
               className='card-btn cv-btn'
-              href='https://drive.google.com/file/d/1Ysc869aBX2V5ILr-Xe5Li0-Koww4srKW/view?usp=sharing'
+              href='https://drive.google.com/file/d/1J2KA4ZYijc4Tf2Gb4bX_idJ3TChEEBCo/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
             >
