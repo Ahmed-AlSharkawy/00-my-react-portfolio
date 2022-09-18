@@ -4,7 +4,7 @@ import { SiGmail } from 'react-icons/si'
 import { FaMobileAlt, FaWhatsapp } from 'react-icons/fa'
 import { MdLocationOn } from 'react-icons/md'
 import { Title } from '../components'
-import myimg from '../assets/cv.jpg'
+import cvImg from '../assets/cv.jpg'
 
 const AboutMe = () => {
   return (
@@ -18,7 +18,7 @@ const AboutMe = () => {
       </h4>
 
       <article className='cv-container'>
-        <img src={myimg} alt='MyPicture' className='cv-img small-device' />
+        <img src={cvImg} alt='MyPicture' className='cv-img small-device' />
 
         <div className='technical-container'>
           <h5>Who am I</h5>
@@ -131,7 +131,7 @@ const AboutMe = () => {
         {/* <hr className='small-device' /> */}
 
         <div className='personal-container'>
-          <img src={myimg} alt='MyPicture' className='cv-img big-device' />
+          <img src={cvImg} alt='MyPicture' className='cv-img big-device' />
           <div className='personal-info'>
             <div>
               <span className='strong'>Contact</span>

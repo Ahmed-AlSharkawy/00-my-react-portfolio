@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import myimg from '../assets/cv.jpg'
+import cvImg from '../assets/cv.jpg'
 
 const Header = () => {
   const pathname = useLocation().pathname
 
   return (
     <header className='header'>
-      <img src={myimg} alt='MyPicture' />
+      <img src={cvImg} alt='MyPicture' />
       <h4>My React Porfolio</h4>
       <nav className='navbar'>
         <Link
