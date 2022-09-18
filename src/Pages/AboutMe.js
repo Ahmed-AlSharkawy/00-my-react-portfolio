@@ -16,6 +16,11 @@ const AboutMe = () => {
           My React Portfolio
         </Link>
       </h4>
+      <h4 className='title margin-top'>
+        <Link to='https://ng-recipes.netlify.app/' style={{ color: 'var(--clr-palette-tan' }}>
+          My Angular Portfolio
+        </Link>
+      </h4>
 
       <article className='cv-container'>
         <img src={cvImg} alt='MyPicture' className='cv-img small-device' />
