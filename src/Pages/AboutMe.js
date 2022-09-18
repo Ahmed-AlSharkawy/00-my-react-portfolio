@@ -24,25 +24,13 @@ const AboutMe = () => {
           <h5>Who am I</h5>
 
           <p>
-            I am a man with a tremendous passion of computer science, in fact
-            it's face that talks to computers, which is generally known as
-            'programming', the old fashion one.
-          </p>
-          <p>
-            I am a self-learner and I’ve really learned so many programming
-            technologies and computer science aspects, until I became the good
-            programmer who even if he doesn't know every thimg, he can learn any
-            thing.
-          </p>
-          <p>
-            In a breif word, I think as a programmer, learn as a programmer, act
-            as a programmer, and live as a programmer.
+            I have a fully tremendous passion with programming. I am a self-learner and I’ve really learned so many programming technologies and computer science aspects, and I seek to take both of my passion and skills to the real life, and to share them with a team that has the same passion.
           </p>
 
           <h5>Current Position</h5>
 
           <p>
-            <strong>PHP WEB DEVELOPER</strong>
+            <strong>FULL STACK WEB DEVELOPER</strong>
             <br />
             At: <a href="https://boti.education/" target="_blank" rel="noopener noreferrer">Boti School Group</a>
             <br />
@@ -63,7 +51,7 @@ const AboutMe = () => {
               VB6 – Clipper – Assembly – XML – JSON
             </li>
             <li>
-              Laravel - Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate –
+              Laravel - Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate – Angular.js
               React.js - Redux – Node.js – Express.js – jQuery - Bootstrap - .Net framework
             </li>
             <li>My SQL – Oracle – MongoDB</li>
