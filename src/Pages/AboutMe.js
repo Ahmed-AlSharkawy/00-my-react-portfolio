@@ -18,7 +18,7 @@ const AboutMe = () => {
       </h4>
       <h4 className='title margin-top'>
         <a href='https://ng-recipes.netlify.app/' target='_blank' rel='noopener noreferrer' 
-        style={{ color: 'var(--clr-palette-tan', textDecoration: 'none' }}>
+        style={{ color: 'var(--clr-palette-tan' }}>
           My Angular Portfolio
         </a>
       </h4>
