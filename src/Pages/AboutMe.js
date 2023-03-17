@@ -11,18 +11,18 @@ const AboutMe = () => {
     <section>
       <Title title='AHMED EL SHARKAWY' />
       <h4 className='title margin-top'>WEB DEVELOPER</h4>
-      <h4 className='title margin-top'>
+      <h4 className='title mb-0 margin-top'>
         <Link to='/' style={{ color: 'var(--clr-palette-tan' }}>
           My React Portfolio
         </Link>
       </h4>
-      <h4 className='title'>
+      <h4 className='title mb-0'>
         <Link to='https://ng-recipes.netlify.app/' style={{ color: 'var(--clr-palette-tan' }}>
           My Angular Portfolio
         </Link>
       </h4>
 
-      <h4 className='title'>
+      <h4 className='title mb-0'>
         <Link
           to='https://play.google.com/store/apps/details?id=com.fmt.bookings'
           style={{ color: 'var(--clr-palette-tan' }}
