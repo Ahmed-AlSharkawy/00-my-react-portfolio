@@ -53,8 +53,8 @@ const AboutMe = () => {
             <a href='https://boti.education/' target='_blank' rel='noopener noreferrer'>
               Boti School Group
             </a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From: 01/11/2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To:
-            28/02/2023
+            <br />
+            From: 01/11/2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To: 28/02/2023
           </p>
 
           <h5>Skills and Technologies</h5>
