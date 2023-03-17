@@ -16,11 +16,19 @@ const AboutMe = () => {
           My React Portfolio
         </Link>
       </h4>
-      <h4 className='title margin-top'>
-        <a href='https://ng-recipes.netlify.app/' target='_blank' rel='noopener noreferrer' 
-        style={{ color: 'var(--clr-palette-tan' }}>
+      <h4 className='title'>
+        <Link to='https://ng-recipes.netlify.app/' style={{ color: 'var(--clr-palette-tan' }}>
           My Angular Portfolio
-        </a>
+        </Link>
+      </h4>
+
+      <h4 className='title'>
+        <Link
+          to='https://play.google.com/store/apps/details?id=com.fmt.bookings'
+          style={{ color: 'var(--clr-palette-tan' }}
+        >
+          My Ionic App
+        </Link>
       </h4>
 
       <article className='cv-container'>
@@ -30,19 +38,24 @@ const AboutMe = () => {
           <h5>Who am I</h5>
 
           <p>
-            I have a fully tremendous passion with programming. I am a self-learner and I’ve really learned so many programming technologies and computer science aspects, and I seek to take both of my passion and skills to the real life, and to share them with a team that has the same passion.
+            I have a fully tremendous passion with programming. I am a self-learner and I’ve really
+            learned so many programming technologies and computer science aspects, and I seek to
+            take both of my passion and skills to the real life, and to share them with a team that
+            has the same passion.
           </p>
 
-          <h5>Current Position</h5>
+          <h5>Last Position</h5>
 
           <p>
             <strong>FULL STACK WEB DEVELOPER</strong>
             <br />
-            At: <a href="https://boti.education/" target="_blank" rel="noopener noreferrer">Boti School Group</a>
-            <br />
-            Since: 01/11/2021
+            At:{' '}
+            <a href='https://boti.education/' target='_blank' rel='noopener noreferrer'>
+              Boti School Group
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From: 01/11/2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To:
+            28/02/2023
           </p>
-
 
           <h5>Skills and Technologies</h5>
 
@@ -53,17 +66,18 @@ const AboutMe = () => {
             <li>Clean Code Concepts and Internal and External Code Quality</li>
             <li>Software Design, Quality and Maintenance</li>
             <li>
-              PHP - Java – Java EE - JavaScript – HTML – CSS - ASP.Net – C# - VB.Net –
-              VB6 – Clipper – Assembly – XML – JSON
+              PHP - Java – Java EE - JavaScript – HTML – CSS - ASP.Net – C# - VB.Net – VB6 – Clipper
+              – Assembly – XML – JSON
             </li>
             <li>
-              Laravel - Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate – Angular.js
-              React.js - Redux – Node.js – Express.js – jQuery - Bootstrap - .Net framework
+              Laravel - Ionic - TypeScript.js - Angular.js - React.js - Redux – Node.js – Express.js
+              – jQuery - Bootstrap - Apache Tomcat – JPA – JSP – Mavin – SpringBoot – Hibernate –
+              .Net framework
             </li>
             <li>My SQL – Oracle – MongoDB</li>
             <li>
-              Git – Github - Serverless Functions – Netlify - Netlify-Cli -
-              Heroku - Contentful - Airtable - Strapi - Stripe - Auth0 ...etc
+              Git – Github - Serverless Functions – Netlify - Netlify-Cli - Heroku - Contentful -
+              Airtable - Strapi - Stripe - Auth0 ...etc
             </li>
           </ul>
 
@@ -121,8 +135,6 @@ const AboutMe = () => {
             </p>
           </ul>
         </div>
-
-        {/* <hr className='small-device' /> */}
 
         <div className='personal-container'>
           <img src={cvImg} alt='MyPicture' className='cv-img big-device' />
